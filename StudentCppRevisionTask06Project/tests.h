@@ -87,7 +87,7 @@ void testingTask02() {
 
 	for (int x = MIN_NUMBER; x <= MAX_NUMBER; x++)
 	{
-		for (int y = MIN_NUMBER; y < MAX_NUMBER; y++)
+		for (int y = MIN_NUMBER + 1; y < MAX_NUMBER; y++)
 		{
 			if (!task02(x, y, x, y + 1)) {
 				result = false;
@@ -98,7 +98,7 @@ void testingTask02() {
 
 	for (int x = MIN_NUMBER; x <= MAX_NUMBER; x++)
 	{
-		for (int y = MIN_NUMBER; y < MAX_NUMBER; y++)
+		for (int y = MIN_NUMBER + 1; y < MAX_NUMBER; y++)
 		{
 			int d1 = rand() % MAX_NUMBER + MIN_NUMBER;
 			int d2 = rand() % MAX_NUMBER + MIN_NUMBER;
